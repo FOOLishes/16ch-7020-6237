@@ -1,0 +1,192 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port AD1_SPI_PIN -pg 1 -y 220 -defaultsOSRD
+preplace port AD1_START -pg 1 -y 180 -defaultsOSRD
+preplace port ch5_v_iepe_en -pg 1 -y 2110 -defaultsOSRD
+preplace port DDR -pg 1 -y 1750 -defaultsOSRD
+preplace port AD2_DCLK -pg 1 -y 1420 -defaultsOSRD
+preplace port CLK_32_768M -pg 1 -y 480 -defaultsOSRD
+preplace port ch5_current_en -pg 1 -y 2090 -defaultsOSRD
+preplace port ch10_v_iepe_en -pg 1 -y 2310 -defaultsOSRD
+preplace port ch1_v_iepe_en -pg 1 -y 1950 -defaultsOSRD
+preplace port ch9_current_en -pg 1 -y 2250 -defaultsOSRD
+preplace port ch8_current_en -pg 1 -y 2210 -defaultsOSRD
+preplace port AD2_SYNCIN -pg 1 -y 1350 -defaultsOSRD
+preplace port AD1_DRDY -pg 1 -y 250 -defaultsOSRD
+preplace port ch2_v_iepe_en -pg 1 -y 1990 -defaultsOSRD
+preplace port ch15_v_iepe_en -pg 1 -y 2510 -defaultsOSRD
+preplace port ch8_v_iepe_en -pg 1 -y 2230 -defaultsOSRD
+preplace port ch4_current_en -pg 1 -y 2050 -defaultsOSRD
+preplace port ch13_v_iepe_en -pg 1 -y 2430 -defaultsOSRD
+preplace port ch6_current_en -pg 1 -y 2130 -defaultsOSRD
+preplace port ch1_current_en -pg 1 -y 1930 -defaultsOSRD
+preplace port AD1_SYNCIN -pg 1 -y 160 -defaultsOSRD
+preplace port ch15_current_en -pg 1 -y 2490 -defaultsOSRD
+preplace port ch3_v_iepe_en -pg 1 -y 2030 -defaultsOSRD
+preplace port ch12_v_iepe_en -pg 1 -y 2390 -defaultsOSRD
+preplace port AD2_CLK_SEL -pg 1 -y 1390 -defaultsOSRD
+preplace port AD2_START -pg 1 -y 1370 -defaultsOSRD
+preplace port AD2_RESET -pg 1 -y 1330 -defaultsOSRD
+preplace port ch2_current_en -pg 1 -y 1970 -defaultsOSRD
+preplace port ch16_v_iepe_en -pg 1 -y 2550 -defaultsOSRD
+preplace port AD1_FILTER -pg 1 -y 60 -defaultsOSRD
+preplace port ch13_current_en -pg 1 -y 2410 -defaultsOSRD
+preplace port AD2_SPI_PIN -pg 1 -y 1410 -defaultsOSRD
+preplace port AD1_CLK_SEL -pg 1 -y 200 -defaultsOSRD
+preplace port AD2_FILTER -pg 1 -y 1250 -defaultsOSRD
+preplace port AD1_RESET -pg 1 -y 140 -defaultsOSRD
+preplace port ch4_v_iepe_en -pg 1 -y 2070 -defaultsOSRD
+preplace port AD2_CLK -pg 1 -y 810 -defaultsOSRD
+preplace port ch6_v_iepe_en -pg 1 -y 2150 -defaultsOSRD
+preplace port ch7_v_iepe_en -pg 1 -y 2190 -defaultsOSRD
+preplace port ch12_current_en -pg 1 -y 2370 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1770 -defaultsOSRD
+preplace port AD2_DRDY -pg 1 -y 1440 -defaultsOSRD
+preplace port ch11_current_en -pg 1 -y 2330 -defaultsOSRD
+preplace port ch11_v_iepe_en -pg 1 -y 2350 -defaultsOSRD
+preplace port ch16_current_en -pg 1 -y 2530 -defaultsOSRD
+preplace port ch7_current_en -pg 1 -y 2170 -defaultsOSRD
+preplace port PL_INTERRUPT -pg 1 -y 1100 -defaultsOSRD
+preplace port AD1_CLK -pg 1 -y 790 -defaultsOSRD
+preplace port ch3_current_en -pg 1 -y 2010 -defaultsOSRD
+preplace port AD1_DCLK -pg 1 -y 230 -defaultsOSRD
+preplace port ch9_v_iepe_en -pg 1 -y 2270 -defaultsOSRD
+preplace port ch14_current_en -pg 1 -y 2450 -defaultsOSRD
+preplace port ch10_current_en -pg 1 -y 2290 -defaultsOSRD
+preplace port ch14_v_iepe_en -pg 1 -y 2470 -defaultsOSRD
+preplace portBus AD1_DOUT -pg 1 -y 270 -defaultsOSRD
+preplace portBus AD2_DOUT -pg 1 -y 1460 -defaultsOSRD
+preplace portBus AD2_ST -pg 1 -y 1290 -defaultsOSRD
+preplace portBus AD2_MODE -pg 1 -y 1270 -defaultsOSRD
+preplace portBus AD1_MODE -pg 1 -y 80 -defaultsOSRD
+preplace portBus AD2_DEC -pg 1 -y 1310 -defaultsOSRD
+preplace portBus AD1_ST -pg 1 -y 100 -defaultsOSRD
+preplace portBus AD1_DEC -pg 1 -y 120 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -y 1010 -defaultsOSRD -resize 235 129
+preplace inst system_pll_ctrl_0 -pg 1 -lvl 4 -y 820 -defaultsOSRD
+preplace inst rx_board_data_0 -pg 1 -lvl 1 -y 930 -defaultsOSRD -resize 295 236
+preplace inst ad7768_0 -pg 1 -lvl 6 -y 490 -defaultsOSRD
+preplace inst ad7768_1 -pg 1 -lvl 6 -y 1420 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -y 590 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -y 650 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 7 -y 540 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 5 -y 1030 -defaultsOSRD
+preplace inst MSXBO_FDMA_0 -pg 1 -lvl 3 -y 940 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 6 -y 840 -defaultsOSRD
+preplace inst channel_parameters_0 -pg 1 -lvl 6 -y 2240 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -y 1760 -defaultsOSRD
+preplace netloc ad7768_1_adc_data_3 1 0 7 90 790 490J 800 NJ 800 1540J 920 NJ 920 2350 940 3010
+preplace netloc channel_parameters_0_ch9_v_iepe_en 1 6 2 NJ 2270 N
+preplace netloc ad7768_0_sync_7768_in 1 6 2 NJ 420 3320
+preplace netloc ad7768_1_adc_data_4 1 0 7 40 1150 NJ 1150 NJ 1150 NJ 1150 NJ 1150 N 1150 2970
+preplace netloc channel_parameters_0_ch15_v_iepe_en 1 6 2 NJ 2510 N
+preplace netloc ad7768_0_ad_spi_pin 1 6 2 3080J 470 3350
+preplace netloc ad7768_1_adc_data_5 1 0 7 50 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 N 1160 2960
+preplace netloc ad7768_0_dec 1 6 2 NJ 380 3300
+preplace netloc processing_system7_0_FIXED_IO 1 6 2 NJ 1770 N
+preplace netloc ad7768_1_adc_data_6 1 0 7 60 1170 NJ 1170 NJ 1170 NJ 1170 NJ 1170 N 1170 2950
+preplace netloc rx_board_data_0_pkg_rd_size 1 1 2 NJ 1009 1000
+preplace netloc ad7768_1_adc_data_7 1 0 7 70 1180 NJ 1180 NJ 1180 NJ 1180 NJ 1180 N 1180 2940
+preplace netloc ad7768_0_adc_to_c_rts 1 0 7 60 760 530J 770 NJ 770 1570J 740 NJ 740 N 740 2930
+preplace netloc ad7768_1_adc_data_8 1 0 7 80 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 N 1190 2930
+preplace netloc channel_parameters_0_ch12_current_en 1 6 2 NJ 2370 N
+preplace netloc ad7768_0_ad7768_rst 1 6 2 NJ 400 3310
+preplace netloc MSXBO_FDMA_0_pkg_rd_last 1 0 4 -20 750 NJ 750 NJ 750 1490
+preplace netloc ad7768_1_adc_to_c_rts 1 0 7 90 1200 NJ 1200 NJ 1200 NJ 1200 NJ 1200 2450 1140 3030
+preplace netloc ad7768_1_dec 1 6 2 NJ 1310 N
+preplace netloc channel_parameters_0_ch4_v_iepe_en 1 6 2 NJ 2070 N
+preplace netloc ad7768_1_st 1 6 2 NJ 1290 N
+preplace netloc dout_0_1 1 0 6 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 2440J
+preplace netloc rx_board_data_0_pkg_wr_areq 1 1 2 NJ 890 1000
+preplace netloc dout_0_2 1 0 6 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ
+preplace netloc channel_parameters_0_ch5_v_iepe_en 1 6 2 NJ 2110 N
+preplace netloc MSXBO_FDMA_0_pkg_rd_data 1 0 4 -60 730 NJ 730 NJ 730 1520
+preplace netloc rx_board_data_0_pkg_wr_data 1 1 2 NJ 910 1010
+preplace netloc channel_parameters_0_ch12_v_iepe_en 1 6 2 NJ 2390 N
+preplace netloc processing_system7_0_DDR 1 6 2 NJ 1750 N
+preplace netloc MSXBO_FDMA_0_M00_AXI 1 3 1 1530
+preplace netloc channel_parameters_0_ch10_v_iepe_en 1 6 2 NJ 2310 N
+preplace netloc channel_parameters_0_ch8_current_en 1 6 2 NJ 2210 N
+preplace netloc ad7768_1_ad_clk_sel 1 6 2 NJ 1390 N
+preplace netloc ad7768_1_filter 1 6 2 NJ 1250 N
+preplace netloc ad7768_0_mode 1 6 2 NJ 340 3280
+preplace netloc channel_parameters_0_ch11_current_en 1 6 2 NJ 2330 N
+preplace netloc channel_parameters_0_ch1_current_en 1 6 2 NJ 1930 N
+preplace netloc smartconnect_0_M00_AXI 1 4 2 1930 1410 2350
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 6 560 1230 NJ 1230 NJ 1230 NJ 1230 2460 1130 3040
+preplace netloc channel_parameters_0_ch9_current_en 1 6 2 NJ 2250 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 4 -10 1070 NJ 1070 1030 1080 1550
+preplace netloc ad7768_1_ad7768_rst 1 6 2 NJ 1330 N
+preplace netloc channel_parameters_0_ch3_current_en 1 6 2 NJ 2010 N
+preplace netloc dclk_0_1 1 0 6 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 2460J
+preplace netloc channel_parameters_0_ch15_current_en 1 6 2 NJ 2490 N
+preplace netloc dclk_0_2 1 0 6 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ
+preplace netloc channel_parameters_0_ch13_v_iepe_en 1 6 2 NJ 2430 N
+preplace netloc system_pll_ctrl_0_sys_rst_n 1 4 2 N 820 2430
+preplace netloc channel_parameters_0_ch7_current_en 1 6 2 NJ 2170 N
+preplace netloc rx_board_data_0_pkg_rd_addr 1 1 2 NJ 990 1060
+preplace netloc rx_board_data_0_pkg_wr_addr 1 1 2 NJ 930 1020
+preplace netloc ad7768_0_ad7768_start 1 6 2 NJ 440 3330
+preplace netloc channel_parameters_0_ch16_v_iepe_en 1 6 2 NJ 2550 N
+preplace netloc channel_parameters_0_ch14_current_en 1 6 2 NJ 2450 N
+preplace netloc channel_parameters_0_ch5_current_en 1 6 2 NJ 2090 N
+preplace netloc channel_parameters_0_ch8_v_iepe_en 1 6 2 NJ 2230 N
+preplace netloc MSXBO_FDMA_0_pkg_rd_en 1 0 4 -30 740 NJ 740 NJ 740 1510
+preplace netloc channel_parameters_0_ch2_current_en 1 6 2 NJ 1970 N
+preplace netloc ad7768_1_ad7768_start 1 6 2 NJ 1370 N
+preplace netloc rx_board_data_0_pkg_wr_size 1 1 2 NJ 950 1040
+preplace netloc ad7768_1_mode 1 6 2 NJ 1270 N
+preplace netloc channel_parameters_0_ch10_current_en 1 6 2 NJ 2290 N
+preplace netloc rx_board_data_0_c_to_adc_ack 1 1 5 490J 1250 NJ 1250 NJ 1250 N 1250 2440
+preplace netloc MSXBO_FDMA_0_pkg_wr_last 1 0 4 -70 690 NJ 690 NJ 690 1500
+preplace netloc channel_parameters_0_ch16_current_en 1 6 2 NJ 2530 N
+preplace netloc clk_wiz_0_locked 1 3 4 1600J 1220 NJ 1220 2420 1080 2930
+preplace netloc channel_parameters_0_ch1_v_iepe_en 1 6 2 NJ 1950 N
+preplace netloc rx_board_data_0_pkg_rd_areq 1 1 2 NJ 970 1050
+preplace netloc util_vector_logic_1_Res 1 4 2 N 650 2410
+preplace netloc ad7768_0_adc_data_1 1 0 7 30 680 550J 700 1000J 710 1590J 720 NJ 720 N 720 3020
+preplace netloc ad7768_1_ad_spi_pin 1 6 2 NJ 1410 N
+preplace netloc ad7768_0_adc_data_2 1 0 7 50 720 NJ 720 NJ 720 1580J 910 NJ 910 2360 920 3030
+preplace netloc ad7768_0_adc_data_3 1 0 7 40 710 NJ 710 1010J 700 1600J 710 1930J 750 N 750 3010
+preplace netloc ad7768_1_sync_7768_in 1 6 2 NJ 1350 N
+preplace netloc channel_parameters_0_ch3_v_iepe_en 1 6 2 NJ 2030 N
+preplace netloc channel_parameters_0_ch11_v_iepe_en 1 6 2 NJ 2350 N
+preplace netloc ad7768_0_adc_data_4 1 0 7 0 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 2360 1090 3050
+preplace netloc channel_parameters_0_ch14_v_iepe_en 1 6 2 NJ 2470 N
+preplace netloc ad7768_0_filter 1 6 2 NJ 320 3270
+preplace netloc ad7768_0_adc_data_5 1 0 7 10 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 N 1110 3040
+preplace netloc ad7768_0_adc_data_6 1 0 7 20 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 2350 1060 3000
+preplace netloc channel_parameters_0_ch7_v_iepe_en 1 6 2 NJ 2190 N
+preplace netloc clk_wiz_0_clk_out1 1 0 7 -10 670 520 1019 1010 1090 1590 1210 1940 1210 2380 260 3060
+preplace netloc ad7768_0_adc_data_7 1 0 7 30 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 2390 1070 2990
+preplace netloc clk_wiz_0_clk_out2 1 6 2 NJ 820 3290
+preplace netloc channel_parameters_0_ch6_v_iepe_en 1 6 2 NJ 2150 N
+preplace netloc ad7768_0_adc_data_8 1 0 7 -40 250 NJ 250 NJ 250 NJ 250 NJ 250 N 250 3070
+preplace netloc clk_wiz_0_clk_out3 1 6 2 NJ 840 3340
+preplace netloc drdy_0_1 1 0 6 -70J 260 NJ 260 NJ 260 NJ 260 NJ 260 2350J
+preplace netloc channel_parameters_0_ch2_v_iepe_en 1 6 2 NJ 1990 N
+preplace netloc channel_parameters_0_ch4_current_en 1 6 2 NJ 2050 N
+preplace netloc drdy_0_2 1 0 6 NJ 1440 NJ 1440 NJ 1440 NJ 1440 NJ 1440 NJ
+preplace netloc rx_board_data_0_pl_interrupt 1 1 7 500J 1120 NJ 1120 NJ 1120 NJ 1120 2410J 1100 NJ 1100 NJ
+preplace netloc MSXBO_FDMA_0_pkg_wr_en 1 0 4 -50 700 540J 760 NJ 760 1480
+preplace netloc ad7768_0_st 1 6 2 NJ 360 3290
+preplace netloc processing_system7_0_GPIO_O 1 0 7 -80 1240 NJ 1240 NJ 1240 NJ 1240 N 1240 2400 1650 2930
+preplace netloc ad7768_0_ad_clk_sel 1 6 2 NJ 460 3340
+preplace netloc ad7768_1_adc_data_1 1 0 7 70 770 510J 780 NJ 780 1570J 900 NJ 900 2370 930 2980
+preplace netloc channel_parameters_0_ch13_current_en 1 6 2 NJ 2410 N
+preplace netloc ad7768_1_adc_data_2 1 0 7 80 780 500J 790 NJ 790 1560J 730 NJ 730 N 730 3020
+preplace netloc CLK_32_768M_1 1 0 6 NJ 480 NJ 480 NJ 480 NJ 480 NJ 480 2420J
+preplace netloc channel_parameters_0_ch6_current_en 1 6 2 NJ 2130 N
+levelinfo -pg 1 -100 320 830 1330 1780 2250 2700 3180 3380 -top -10 -bot 2610
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"20",
+   "da_ps7_cnt":"1"
+}

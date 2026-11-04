@@ -1,0 +1,54 @@
+# ===== Vivado 工程生成物 =====
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.backup.*
+.Xil/
+**/.Xil/
+*.runs/
+**/*.runs/
+*.cache/
+**/*.cache/
+*.hw/
+**/*.hw/
+*.sim/
+**/*.sim/
+*.ip_user_files/
+**/*.ip_user_files/
+*.gen/
+**/*.gen/
+
+# ===== 综合/实现产物 =====
+*.dcp
+*.bit
+*.ltx
+*.bin
+*.mcs
+*.prm
+*.rpt
+*.rpx
+*.dcp.txt
+
+# ===== Vitis / SDK 工作区 =====
+*.sdk/
+**/*.sdk/
+*.sdk/**
+.metadata/
+**/.metadata/
+RemoteSystemsTempFiles/
+webtalk/
+Debug/
+Release/
+
+# ===== 厂商 IP 打包脚手架（可由 hdl 重新生成） =====
+user_src/**/prj/
+ip_repo/**/example_designs/
+
+# ===== 系统/编辑器 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
